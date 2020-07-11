@@ -30,3 +30,27 @@ print(list_of_spanish_movies_in_73s[-1])  # Lo verde empieza en los Pirineos
 # first element you want to include and the last index is the number of
 # the first element after your slice
 print(list_of_spanish_movies_in_73s[2:5])  # ['The Girl from the Red Cabaret', 'La otra imagen', 'Queridísmos verdugos']
+
+# Creating a list from a string
+letters_of_name = list('Alexandre')
+print(letters_of_name)
+
+# Changing Lists: Item Assignments
+x = [1, 1, 1]
+x[1] = 2
+print(x)
+
+# Deleting Elements.
+names = ['Alice', 'Beth', 'Cecil', 'Dee-Dee', 'Earl']
+del names[2]
+print(names)
+
+# append - used to append an object to the end of a list.
+names.append('Alexandre')
+print(names)
+
+# clear - clears the contents of a list, in place.
+lst = [1, 2, 3]
+print(lst)
+lst.clear()
+print(lst)
